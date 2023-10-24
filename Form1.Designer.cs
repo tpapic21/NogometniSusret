@@ -39,16 +39,17 @@
             // 
             // btnEvidentiraj
             // 
-            btnEvidentiraj.Location = new Point(118, 273);
+            btnEvidentiraj.Location = new Point(62, 213);
             btnEvidentiraj.Name = "btnEvidentiraj";
-            btnEvidentiraj.Size = new Size(75, 23);
+            btnEvidentiraj.Size = new Size(75, 22);
             btnEvidentiraj.TabIndex = 0;
             btnEvidentiraj.Text = "Evidentiraj";
             btnEvidentiraj.UseVisualStyleBackColor = true;
+            btnEvidentiraj.Click += btnEvidentiraj_Click;
             // 
             // txtHost
             // 
-            txtHost.Location = new Point(93, 50);
+            txtHost.Location = new Point(93, 37);
             txtHost.Name = "txtHost";
             txtHost.Size = new Size(100, 23);
             txtHost.TabIndex = 1;
@@ -56,7 +57,7 @@
             // lblHost
             // 
             lblHost.AutoSize = true;
-            lblHost.Location = new Point(16, 54);
+            lblHost.Location = new Point(16, 41);
             lblHost.Name = "lblHost";
             lblHost.Size = new Size(55, 15);
             lblHost.TabIndex = 2;
@@ -64,7 +65,7 @@
             // 
             // txtGuest
             // 
-            txtGuest.Location = new Point(93, 99);
+            txtGuest.Location = new Point(93, 86);
             txtGuest.Name = "txtGuest";
             txtGuest.Size = new Size(100, 23);
             txtGuest.TabIndex = 1;
@@ -72,7 +73,7 @@
             // lblGuest
             // 
             lblGuest.AutoSize = true;
-            lblGuest.Location = new Point(16, 103);
+            lblGuest.Location = new Point(16, 90);
             lblGuest.Name = "lblGuest";
             lblGuest.Size = new Size(31, 15);
             lblGuest.TabIndex = 2;
@@ -80,7 +81,7 @@
             // 
             // txtResult
             // 
-            txtResult.Location = new Point(93, 167);
+            txtResult.Location = new Point(93, 154);
             txtResult.Name = "txtResult";
             txtResult.Size = new Size(100, 23);
             txtResult.TabIndex = 1;
@@ -88,7 +89,7 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(16, 171);
+            lblResult.Location = new Point(16, 158);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(49, 15);
             lblResult.TabIndex = 2;
@@ -98,7 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(359, 342);
+            ClientSize = new Size(238, 271);
             Controls.Add(lblResult);
             Controls.Add(lblGuest);
             Controls.Add(lblHost);
